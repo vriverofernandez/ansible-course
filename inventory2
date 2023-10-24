@@ -1,0 +1,4 @@
+[servers]
+controlplane
+node01
+controlplane
