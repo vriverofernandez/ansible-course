@@ -1,0 +1,3 @@
+[servers]
+node01 type=server
+node02 type=client

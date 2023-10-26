@@ -1,0 +1,8 @@
+[webservers]
+controlplane env=prod app=web
+node01 env=dev app=db
+
+
+[servers]
+controlplane1 env=prod app=web 
+node02 env=dev app=db 

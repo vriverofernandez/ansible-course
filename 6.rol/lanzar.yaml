@@ -1,0 +1,9 @@
+- hosts: servers
+  vars:
+  become: True
+  gather_facts: True
+  tasks:
+
+  roles:
+  - { role: nfs_server, when: type == "server" } 
+  - { role: nfs_client, when: type == "client" } 
