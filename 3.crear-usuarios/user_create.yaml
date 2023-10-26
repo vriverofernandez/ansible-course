@@ -1,6 +1,6 @@
 ---
 - name: User push to environment servers
-  hosts: servers
+  hosts: localhost
   vars:
   gather_facts: True
   become: True
